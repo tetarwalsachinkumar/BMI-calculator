@@ -49,7 +49,7 @@ let ht=inht.value;
      bmidisplay.innerText="Please give height input"
     }
     else {
-let bmi=(mul1*wt)/((mul2*ht)^2);
+let bmi=(mul1*wt)/((mul2*ht)**2);
 // console.log(bmi,mul1,mul2,wt,ht);
     
     if(bmi<18.5) bmidisplay.innerText=`Your BMI is ${bmi} (underweight)`;
